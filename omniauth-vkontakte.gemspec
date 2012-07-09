@@ -2,9 +2,8 @@
 require File.expand_path('../lib/omniauth-vkontakte/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth2', '~> 1.1.0'
-  gem.add_dependency 'multi_json'
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1.0'
+  gem.add_runtime_dependency 'multi_json'
 
   gem.authors       = ["Anton Maminov"]
   gem.email         = ["anton.linux@gmail.com"]

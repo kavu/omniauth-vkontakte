@@ -16,9 +16,9 @@ module OmniAuth
       option :name, 'vkontakte'
 
       option :client_options, {
-        :site          => 'https://oauth.vk.com/',
-        :token_url     => '/token',
-        :authorize_url => '/authorize'
+        :site          => 'https://api.vk.com/',
+        :token_url     => '/oauth/token',
+        :authorize_url => '/oauth/authorize'
       }
 
       option :access_token_options, {
